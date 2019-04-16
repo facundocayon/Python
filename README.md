@@ -1,2 +1,2 @@
-# python
+# Python
 Desarrollos en lenguaje Python
