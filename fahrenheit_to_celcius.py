@@ -1,12 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""
-solicitar el valor en fahrenheit y capturarlo
-mientras no se ingrese un valor correcto:
-	informar que se debe ingresar un valor
-	volver a solicitar el valor en fahrenheit y capturarlo
-realizar la conversion e informar el valor en centigrados por pantalla
-"""
 print("""
  ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ _________ ____ ____ 
 ||F |||A |||H |||R |||E |||N |||H |||E |||I |||T |||       |||T |||O ||
