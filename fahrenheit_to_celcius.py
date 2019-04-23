@@ -25,17 +25,25 @@ def ingreso_valido(ingreso):
 		return True
 	else:
 		return False
-
+		
+intentos = 0
 print ("")
 print (" Presione Enter para comenzar:")
 input()
 fahrenheit = input(" Ingrese grados fahrenheit = ")
 
 while not ingreso_valido(fahrenheit):
+	intentos = intentos + 1
+	if intentos == 3:
+		print ("")
+		print(" Numero maximo de intentos alcanzado. Programa terminado.")
+		break
 	print ("")
 	print(" Ups! Ha ingresado un valor incorrecto.")
 	print ("")
 	fahrenheit = input(" Ingrese grados fahrenheit = ")
-celsius = (int(fahrenheit) - 32) * 5/9
-print("")
-print(" Son centigrados = " + str(celsius))
+
+else:
+	celsius = (int(fahrenheit) - 32) * 5/9
+	print("")
+	print(" Son centigrados = " + str(celsius))
